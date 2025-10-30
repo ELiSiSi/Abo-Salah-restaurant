@@ -17,11 +17,7 @@ body {
   --main-color: #000000;
   background-color: var(--main-color);
   width: 100%;
-  background-image: url("../image/back1.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
-  z-index: 0;
+  
 }
 
 
