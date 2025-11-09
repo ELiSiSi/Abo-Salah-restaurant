@@ -225,50 +225,43 @@ background-color:  var(--secondary-color);
   }
 }
 
-/* start container 22222*/
-/* start container 22222*/
-/* start container 22222*/
-
-.container form {
-
-  margin-top: -15px;
-  margin-bottom: 0px;
-  padding-bottom: 5px;
-
+/* CLICK / WHATSAPP */
+.click {
+  width: 100%;
+  display: flex;
+  justify-content: center;
   text-align: center;
-margin-bottom: 100px;
-
+  margin-bottom: 100px;
 }
 
-.container form .text {
-  text-align: center;
+.click .container {
+  width: fit-content;
+}
 
-  font-size: 40px;
+.click .container form {
+  margin-top: 30px;
+}
+
+.click .text {
+  font-size: 35px;
   color: var(--secondary-color);
-  line-height: 2;
-
+  margin-bottom: 15px;
+  font-weight: 700;
 }
 
-.container form a {
-
-  font-size: 40px;
-  background-color: rgba(120, 56, 56, 0.447);
-  color: #ffffff;
-
-  border: 2px solid black;
-  padding: 5px;
- 
-
+.click a {
+  font-size: 28px;
+  background-color: var(--secondary-color);
+  color: var(--main-color);
+  padding: 10px 30px;
+  border-radius: 6px;
+  display: inline-block;
+  transition: 0.3s;
+  font-weight: 700;
 }
 
-.container form a:hover {
+.click a:hover {
+  background-color: var(--text-light);
   color: var(--secondary-color);
-  font-size: 45px;
-
-
-}
-
-.container {
-
-  margin: auto;
+  transform: scale(1.1);
 }

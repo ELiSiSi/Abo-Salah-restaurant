@@ -85,11 +85,15 @@ body {
   text-align: center;
 }
 
-.offer p {
+.offer img {
+  width: 80%;
+  margin-bottom: 20px;
+  border-radius: 8px;
+
   direction: rtl;
   margin-bottom: 30px;
-  border: 1px solid var(--secondary-color);
-  padding: 20px;
+  border: 6px solid var(--secondary-color);
+  padding: 10px;
   border-radius: 8px;
   background: rgba(255, 162, 0, 0.1);
 }
