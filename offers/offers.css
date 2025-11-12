@@ -79,19 +79,26 @@ body {
 .offer .container {
   margin-top: 20px;
   padding-bottom: 30px;
+  width: 90%;
   color: var(--text-light);
   font-size: 22px;
-  line-height: 1.8;
-  text-align: center;
+    display: grid;
+
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+
+  gap:20px;
+}
+@media (max-width: 768px) {
+  .offer .container {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
 }
 
 .offer img {
-  width: 80%;
-  margin-bottom: 20px;
-  border-radius: 8px;
+  width: 100%;
+   border-radius: 8px;
 
-  direction: rtl;
-  margin-bottom: 30px;
+   margin-bottom: 30px;
   border: 6px solid var(--secondary-color);
   padding: 10px;
   border-radius: 8px;
